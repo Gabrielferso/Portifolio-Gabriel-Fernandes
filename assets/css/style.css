@@ -22,15 +22,16 @@ body {
 
 header {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 8%;
+    padding: 24px 120px;
     position: relative;
     z-index: 10;
 }
 
 .logo img {
-    height: 40px; 
+    height: 32px; 
 }
 
 nav a {
@@ -53,12 +54,11 @@ nav a:hover {
     width: 32px;
     height: 32px;
     background-color: var(--brand-blue);
-    color: var(--text-white);
+    color: white;
     border-radius: 50%;
     margin-left: 10px;
     text-decoration: none;
-    font-size: 0.9rem;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s;
 }
 
 
@@ -103,14 +103,14 @@ nav a:hover {
 }
 
 .hero-subtitle {
+    font-family: 'BBH Hegarty', sans-serif;
     margin-top: 20px;
-    font-size: 1.5rem;
-    font-weight: 900;
+    font-size: 40px;
+    font-weight: 400;
     z-index: 3;
     position: relative;
 }
 
-/* ================= SOBRE MIM SECTION ================= */
 .sobre-mim {
     display: flex;
     align-items: center;
@@ -119,30 +119,24 @@ nav a:hover {
     gap: 50px;
 }
 
-.sobre-text {
-    flex: 1;
-}
-
 .sobre-text .greeting {
-    font-size: 1.2rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
     font-weight: 400;
-    margin-bottom: 5px;
+    line-height: 140%;
 }
 
 .sobre-text .name {
-    font-size: 2rem;
+    font-size: 36px;
     font-weight: 900;
     margin-bottom: 30px;
 }
 
 .sobre-text p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.7;
-    color: var(--text-gray);
-}
-
-.sobre-text p strong {
-    color: white;
 }
 
 .sobre-img-wrapper {
@@ -151,7 +145,6 @@ nav a:hover {
     justify-content: flex-end;
 }
 
-/* Foto redonda da seção sobre mim */
 .sobre-img-circle {
     width: 350px;
     height: 350px;
@@ -159,7 +152,6 @@ nav a:hover {
     border-radius: 50%;
 }
 
-/* ================= RESPONSIVIDADE (CELULARES) ================= */
 @media (max-width: 900px) {
     header {
         flex-direction: column;
@@ -183,7 +175,7 @@ nav a:hover {
     }
     
     .sobre-mim {
-        flex-direction: column-reverse; /* Inverte: foto em cima, texto embaixo no mobile */
+        flex-direction: column-reverse;
         text-align: center;
         padding: 50px 8%;
     }
