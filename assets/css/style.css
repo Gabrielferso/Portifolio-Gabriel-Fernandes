@@ -119,19 +119,18 @@ nav a:hover {
     gap: 50px;
 }
 
-.sobre-text .greeting {
+.sobre-text .saudacao {
     color: #FFF;
     font-family: inter, sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    margin-bottom: 1rem
 }
 
-.sobre-text .name {
-    font-size: 36px;
-    font-weight: 900;
-    margin-bottom: 30px;
+.sobre-text .saudacao strong{
+    font-weight: ;
 }
 
 .sobre-text p {
