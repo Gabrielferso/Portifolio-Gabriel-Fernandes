@@ -75,17 +75,17 @@ nav a:hover {
 .hero-bg-shape {
     position: absolute;
     top: -156px;
-    width: 320px;
-    height: 656px;
+    width: 542px;
+    height: 810px;
     background-color: #005782;
     z-index: 1;
-    border-radius: 0 0 160px 160px;
+    border-radius: 0 0 500px 500px;
 }
 
 .hero-title {
-    font-family: 'BBH Hegarty',;
+    font-family: 'BBH Hegarty';
     font-size: 150px;
-    font-weight: 900;
+    font-weight: 880px;
     letter-spacing: 2px;
     z-index: 2;
     position: relative;
@@ -94,12 +94,12 @@ nav a:hover {
 
 .hero-img {
     z-index: 3;
-    width: 320px;
-    height: 350px;
+    width: 542px;
+    height: 542px;
     object-fit: cover;
     object-position: top;
     position: relative;
-    border-radius: 0 0 160px 160px;
+    border-radius: 0 0 500px 500px;
 }
 
 .hero-subtitle {
@@ -121,7 +121,7 @@ nav a:hover {
 
 .sobre-text .greeting {
     color: #FFF;
-    font-family: Inter;
+    font-family: inter, sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -139,6 +139,29 @@ nav a:hover {
     line-height: 1.7;
 }
 
+.meu-botao {
+  background-color: #005782; 
+  width: 439px;
+  height: 98px;
+  color: #ffffff;            
+  padding: 12px 24px;        
+  font-size: 32px;           
+  font-weight: normal;        
+  border: none;              
+  border-radius: 32px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.meu-botao:hover {
+  background-color: #0056b3;
+}
+
+.meu-botao:active {
+  transform: scale(0.98);   
+}
+
 .sobre-img-wrapper {
     flex: 1;
     display: flex;
@@ -146,8 +169,9 @@ nav a:hover {
 }
 
 .sobre-img-circle {
-    width: 350px;
-    height: 350px;
+    margin-left: 100px;
+    width: 436px;
+    height: 436px;
     background-color: #005782;
     border-radius: 50%;
 }
@@ -185,6 +209,7 @@ nav a:hover {
     }
     
     .sobre-img-circle {
+        margin-left: 0;
         width: 250px;
         height: 250px;
     }
