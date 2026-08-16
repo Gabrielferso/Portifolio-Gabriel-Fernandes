@@ -142,7 +142,7 @@ nav a:hover {
 .meu-botao {
   margin-top: 50px;
   background-color: #005782; 
-  width: 439px;
+  width: 438px;
   height: 98px;
   color: #ffffff;            
   padding: 12px 24px;        
@@ -179,6 +179,7 @@ nav a:hover {
 
 @media (max-width: 900px) {
     header {
+        white-space: nowrap;
         flex-direction: column;
         gap: 20px;
     }
@@ -189,11 +190,13 @@ nav a:hover {
     }
     
     .hero-bg-shape {
+        top: 0;
         width: 260px;
         height: 500px;
     }
     
     .hero-img {
+        top: 84px;
         width: 260px;
         height: 280px;
         border-radius: 0 0 130px 130px;
@@ -203,6 +206,12 @@ nav a:hover {
         flex-direction: column-reverse;
         text-align: center;
         padding: 50px 8%;
+    }
+
+    .meu-botao {
+        font-size: 18px;
+        width: 219px;
+        height: 49px;
     }
     
     .sobre-img-wrapper {
