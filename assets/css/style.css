@@ -22,12 +22,16 @@ body {
 
 header {
     display: flex;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 24px 120px;
     position: relative;
+    width: 100%;
     z-index: 10;
+}
+
+.header-constru{
+    justify-content: center;
 }
 
 .logo img {
@@ -174,6 +178,30 @@ nav a:hover {
     height: 436px;
     background-color: #005782;
     border-radius: 50%;
+}
+
+.section-constru{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.em-constru-title{
+    padding-left: 152px;
+    color: #FFF;
+    font-family: "BBH Hegarty";
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img-constru{
+    width: 654px;
+    height: 654px;
+    margin-right: 188px ;
 }
 
 @media (max-width: 900px) {
