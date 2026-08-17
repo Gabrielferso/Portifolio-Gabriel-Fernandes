@@ -198,10 +198,17 @@ nav a:hover {
     line-height: normal;
 }
 
+.container-constru{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    margin-right: 188px
+}
+
 .img-constru{
     width: 654px;
     height: 654px;
-    margin-right: 188px ;
 }
 
 @media (max-width: 900px) {
